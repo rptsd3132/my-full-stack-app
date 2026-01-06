@@ -38,16 +38,25 @@ guest-info-system/
 └── README.md
 
 
-# Install both frontend & backend packages (if using a single package.json)
+Install both frontend & backend packages (if using a single package.json)
 npm install
+
+
+
 
 Start the backend server
 node server.js
 
-npm run dev    # if using Vite
-# OR
-npm start      # if using Create React App
-(App runs on: http://localhost:5173 (Vite) or http://localhost:3000)
+
+
+
+npm run dev     if using Vite
+or
+npm start       if using Create React App
+(App runs on: http://localhost:5173 (Vite) or http://localhost:3000
+
+
+
 
 📝 Notes
 On the first run, guest.json will be created automatically.
@@ -55,17 +64,25 @@ All data persists between sessions (saved in guest.json).
 Age is stored as a number; visit date uses YYYY-MM-DD format.
 The delete action includes a browser confirmation dialog for safety.
 
-🤝 Contributing
+
+
+
+
+🤝 # Contributing
 Feel free to:
 Fork this repository
 Open an issue for bugs or suggestions
 Submit a pull request with improvements (UI, validation, features like editing!)
 
-📜 License
+
+
+
+📜 # License
 This project is open-source and available under the MIT License
 
-👨‍💻 Author
 
+
+👨‍💻 # Author
 R. P. T. Sandeepa Dilhara (electronic, communication, and IT undergraduate student )
 
 
